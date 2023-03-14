@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  body {
+    color: #232323;
+    font-family: 'Raleway', sans-serif;
+  }
+}
+
+@layer components {
+  .card-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .card-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    /* Firefox */
+  }
+
+}

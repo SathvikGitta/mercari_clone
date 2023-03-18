@@ -1,6 +1,5 @@
 import React from 'react'
 import { FiSearch } from "react-icons/fi"
-import { Outlet } from 'react-router-dom'
 // import LandingpageImage from "../assets/images/landingpage_banner.jpg"
 function HeaderBanner() {
     const suggestion_list = ["Retro Video Games", "Organisation", "Workout gear"]

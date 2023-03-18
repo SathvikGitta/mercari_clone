@@ -1,5 +1,4 @@
 import React from 'react'
-import DataStore from "../DataStore.json";
 
 function Footer() {
     return (
@@ -73,7 +72,7 @@ function Footer() {
 
                 <div className='flex items-center ml-3 text-white'>
                     <h1><a href="" className='font-semibold text-lg'>MERCARI</a></h1>
-                    <span className='text-xs pl-2 text-zinc-400'>NMLS ID: 1486447 PO Box 60178, Palo Alto, CA 94306</span>
+                    <span className='text-xs pl-2 text-zinc-400 font-sans'>NMLS ID: 1486447 PO Box 60178, Palo Alto, CA 94306</span>
                 </div>
             </div>
         </>
